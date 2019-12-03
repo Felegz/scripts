@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name        Redirect t.me to web.telegram.org
 // @namespace   uso2usom
-// @description On any web page it will check if the clicked links goes to userscripts.org. If so, the link will be rewritten to point to userscripts-mirror.org
+// @description On any web page it will check if the clicked links goes to userscripts.org. If so, the link will be rewritten to point to https://web.telegram.org/
+// @copyright   This script is based on userscript "Redirect Userscripts.org to Userscripts-MIRROR.org" by Isaac Rockett. Source: https://greasyfork.org/en/scripts/4520-redirect-userscripts-org-to-userscripts-mirror-org
+// @author      Felegz
 // @include     http://*.*
 // @include     https://*.*
-// @exclude     http://userscripts.org/*
-// @exclude     https://userscripts.org/*
-// @exclude     http://userscripts.org:8080/*
-// @exclude     https://userscripts.org:8080/*
-// @version     1.0
+// @version     0.1
 // @grant       none
 // ==/UserScript==
 
